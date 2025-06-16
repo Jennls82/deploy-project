@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "PolicyAction": "ReplaceAndDelete",
+                "Action": "Modify",
+                "LogicalResourceId": "ManagedNodeGroup",
+                "PhysicalResourceId": "disco-unicorn/tasky-group",
+                "ResourceType": "AWS::EKS::Nodegroup",
+                "Replacement": "True",
+                "Scope": [
+                    "Properties"
+                ],
+                "Details": [
+                    {
+                        "Target": {
+                            "Attribute": "Properties",
+                            "Name": "Subnets",
+                            "RequiresRecreation": "Always"
+                        },
+                        "Evaluation": "Static",
+                        "ChangeSource": "DirectModification"
+                    }
+                ]
+            }
+        }
+    ],
+    "ChangeSetName": "preview-changes",
+    "ChangeSetId": "arn:aws:cloudformation:us-east-1:307946671796:changeSet/preview-changes/6e47aeec-259c-4ebb-8279-289b207fc752",
+    "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+    "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+    "Description": null,
+    "Parameters": null,
+    "CreationTime": "2025-06-11T16:50:17.580000+00:00",
+    "ExecutionStatus": "AVAILABLE",
+    "Status": "CREATE_COMPLETE",
+    "StatusReason": null,
+    "NotificationARNs": [],
+    "RollbackConfiguration": {},
+    "Capabilities": [
+        "CAPABILITY_IAM"
+    ],
+    "Tags": [
+        {
+            "Key": "alpha.eksctl.io/cluster-name",
+            "Value": "disco-unicorn"
+        },
+        {
+            "Key": "alpha.eksctl.io/nodegroup-name",
+            "Value": "tasky-group"
+        },
+        {
+            "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+            "Value": "disco-unicorn"
+        },
+        {
+            "Key": "alpha.eksctl.io/nodegroup-type",
+            "Value": "managed"
+        },
+        {
+            "Key": "alpha.eksctl.io/eksctl-version",
+            "Value": "0.209.0-dev+d3e4061db.2025-06-05T14:06:16Z"
+        }
+    ],
+    "ParentChangeSetId": null,
+    "IncludeNestedStacks": false,
+    "RootChangeSetId": null,
+    "OnStackFailure": null,
+    "ImportExistingResources": null
+}

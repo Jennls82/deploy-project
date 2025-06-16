@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tasky
+  namespace: tasky
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tasky
+  template:
+    metadata:
+      labels:
+        app: tasky
+    spec:
+      serviceAccountName: tasky-admin    
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: subnet-type
+                    operator: In
+                    values:
+                      - private
+      containers:
+        - name: project-wiz
+          image: 307946671796.dkr.ecr.us-east-1.amazonaws.com/tasky/wiz-project:latest
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - secretRef:
+                name: tasky-secret # Ensure this secret exists in the tasky namespace           
+      imagePullSecrets:
+        - name: regcred #Docker registry credentials for pulling images - obsolete, use ECR IAM roles instead

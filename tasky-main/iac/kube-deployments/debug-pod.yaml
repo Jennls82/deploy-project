@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug-pod
+  namespace: tasky
+spec:
+  containers:
+  # - name: debug-container
+  #   image: amazonlinux
+  #   command: [ "sleep", "3600" ]
+  # - name: debug-container
+  #   image: bitnami/kubectl:latest
+  #   command: ["sleep", "3600"]
+  #   args: ["3600"]
+  # - name: debug-container
+  #   image: busybox:latest
+  #   command: ["sleep", "3600"]
+  # - name: debug-container
+  #   image: nicolaka/netshoot:latest
+  #   command: ["sleep", "3600"]
+  # - name: debug-container
+  #   image: mongo:4.0 # Use the same version as your MongoDB deployment
+  #   command: ["sleep", "3600"]  
+  - name: debug-container
+    image: curlimages/curl:latest
+    command: ["sleep", "3600"]               
+
+    

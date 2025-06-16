@@ -1,0 +1,281 @@
+{
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "d17789e0-46e6-11f0-9f93-0afffe2dcf73",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T17:09:21.911000+00:00",
+            "ResourceStatus": "UPDATE_ROLLBACK_COMPLETE_CLEANUP_IN_PROGRESS"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-UPDATE_COMPLETE-2025-06-11T17:09:21.521Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T17:09:21.521000+00:00",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-024e8033ed9bf328e\",\"subnet-05666e5ec046bde15\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "cfd0dec0-46e6-11f0-9e01-0ed407024b85",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T17:09:19.122000+00:00",
+            "ResourceStatus": "UPDATE_ROLLBACK_IN_PROGRESS",
+            "ResourceStatusReason": "The following resource(s) failed to update: [ManagedNodeGroup]. "
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-UPDATE_FAILED-2025-06-11T17:09:18.654Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T17:09:18.654000+00:00",
+            "ResourceStatus": "UPDATE_FAILED",
+            "ResourceStatusReason": "Resource handler returned message: \"NodeGroup already exists with name tasky-group and cluster name disco-unicorn (Service: Eks, Status Code: 409, Request ID: ae18a249-6399-49df-a195-29673cc84b9f) (SDK Attempt Count: 1)\" (RequestToken: 83053f60-c0d5-4332-23f9-92719f911874, HandlerErrorCode: AlreadyExists)",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-049e74987793682da\",\"subnet-03d2cd58de2a9c48a\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-UPDATE_IN_PROGRESS-2025-06-11T17:09:17.486Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T17:09:17.486000+00:00",
+            "ResourceStatus": "UPDATE_IN_PROGRESS",
+            "ResourceStatusReason": "Requested update requires the creation of a new physical resource; hence creating one.",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-049e74987793682da\",\"subnet-03d2cd58de2a9c48a\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "cc89a300-46e6-11f0-a0ee-0affecd1a99b",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T17:09:13.631000+00:00",
+            "ResourceStatus": "UPDATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "4edc2230-46e5-11f0-a05c-0e7b075d32b7",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T16:58:33.285000+00:00",
+            "ResourceStatus": "UPDATE_ROLLBACK_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-eeb01cdb-6d00-46c7-abdd-01c595ab51cc",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T16:58:33.128000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "4df8ee20-46e5-11f0-b8cc-0efcd7ed9943",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T16:58:31.799000+00:00",
+            "ResourceStatus": "UPDATE_ROLLBACK_COMPLETE_CLEANUP_IN_PROGRESS"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-UPDATE_COMPLETE-2025-06-11T16:58:31.425Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T16:58:31.425000+00:00",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-024e8033ed9bf328e\",\"subnet-05666e5ec046bde15\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "4c510a80-46e5-11f0-8d5f-0affcdf21fb9",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T16:58:29.010000+00:00",
+            "ResourceStatus": "UPDATE_ROLLBACK_IN_PROGRESS",
+            "ResourceStatusReason": "The following resource(s) failed to update: [ManagedNodeGroup]. "
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-UPDATE_FAILED-2025-06-11T16:58:28.686Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T16:58:28.686000+00:00",
+            "ResourceStatus": "UPDATE_FAILED",
+            "ResourceStatusReason": "Resource handler returned message: \"NodeGroup already exists with name tasky-group and cluster name disco-unicorn (Service: Eks, Status Code: 409, Request ID: 79757bf8-15a9-42f8-a371-dfb3f0a39df1) (SDK Attempt Count: 1)\" (RequestToken: 52586c73-80a7-d612-2f40-49a14c50482c, HandlerErrorCode: AlreadyExists)",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-049e74987793682da\",\"subnet-03d2cd58de2a9c48a\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-UPDATE_IN_PROGRESS-2025-06-11T16:58:27.579Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-11T16:58:27.579000+00:00",
+            "ResourceStatus": "UPDATE_IN_PROGRESS",
+            "ResourceStatusReason": "Requested update requires the creation of a new physical resource; hence creating one.",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-049e74987793682da\",\"subnet-03d2cd58de2a9c48a\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "49549360-46e5-11f0-a00e-0e3b23bfaf07",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-11T16:58:23.999000+00:00",
+            "ResourceStatus": "UPDATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "63bcb990-4351-11f0-82a2-0affcd77bc5d",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-07T03:42:09.308000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-CREATE_COMPLETE-2025-06-07T03:42:08.723Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-07T03:42:08.723000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-024e8033ed9bf328e\",\"subnet-05666e5ec046bde15\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-CREATE_IN_PROGRESS-2025-06-07T03:40:05.809Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "disco-unicorn/tasky-group",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-07T03:40:05.809000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-024e8033ed9bf328e\",\"subnet-05666e5ec046bde15\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "ManagedNodeGroup-CREATE_IN_PROGRESS-2025-06-07T03:40:03.011Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "ManagedNodeGroup",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::EKS::Nodegroup",
+            "Timestamp": "2025-06-07T03:40:03.011000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"NodeRole\":\"arn:aws:iam::307946671796:role/eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k\",\"NodegroupName\":\"tasky-group\",\"Subnets\":[\"subnet-024e8033ed9bf328e\",\"subnet-05666e5ec046bde15\"],\"AmiType\":\"AL2023_x86_64_STANDARD\",\"ScalingConfig\":{\"DesiredSize\":\"3\",\"MinSize\":\"1\",\"MaxSize\":\"3\"},\"LaunchTemplate\":{\"Id\":\"lt-0d4b0a1d4b4e15aad\"},\"ClusterName\":\"disco-unicorn\",\"Labels\":{\"alpha.eksctl.io/cluster-name\":\"disco-unicorn\",\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\"},\"InstanceTypes\":[\"t2.small\"],\"Tags\":{\"alpha.eksctl.io/nodegroup-name\":\"tasky-group\",\"alpha.eksctl.io/nodegroup-type\":\"managed\"}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "NodeInstanceRole-CREATE_COMPLETE-2025-06-07T03:40:02.271Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "NodeInstanceRole",
+            "PhysicalResourceId": "eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-06-07T03:40:02.271000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"Path\":\"/\",\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly\",\"arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy\",\"arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy\",\"arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"sts:AssumeRole\"],\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}]},\"Tags\":[{\"Value\":\"eksctl-disco-unicorn-nodegroup-tasky-group/NodeInstanceRole\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "LaunchTemplate-CREATE_COMPLETE-2025-06-07T03:39:47.334Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "LaunchTemplate",
+            "PhysicalResourceId": "lt-0d4b0a1d4b4e15aad",
+            "ResourceType": "AWS::EC2::LaunchTemplate",
+            "Timestamp": "2025-06-07T03:39:47.334000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"LaunchTemplateData\":{\"MetadataOptions\":{\"HttpPutResponseHopLimit\":\"2\",\"HttpTokens\":\"required\"},\"TagSpecifications\":[{\"ResourceType\":\"instance\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]},{\"ResourceType\":\"volume\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]},{\"ResourceType\":\"network-interface\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]}],\"BlockDeviceMappings\":[{\"Ebs\":{\"VolumeType\":\"gp3\",\"Throughput\":\"125\",\"Iops\":\"3000\",\"VolumeSize\":\"80\"},\"DeviceName\":\"/dev/xvda\"}],\"SecurityGroupIds\":[\"sg-02dc3620fb1be6bb2\"]},\"LaunchTemplateName\":\"eksctl-disco-unicorn-nodegroup-tasky-group\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "LaunchTemplate-CREATE_IN_PROGRESS-2025-06-07T03:39:46.354Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "LaunchTemplate",
+            "PhysicalResourceId": "lt-0d4b0a1d4b4e15aad",
+            "ResourceType": "AWS::EC2::LaunchTemplate",
+            "Timestamp": "2025-06-07T03:39:46.354000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"LaunchTemplateData\":{\"MetadataOptions\":{\"HttpPutResponseHopLimit\":\"2\",\"HttpTokens\":\"required\"},\"TagSpecifications\":[{\"ResourceType\":\"instance\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]},{\"ResourceType\":\"volume\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]},{\"ResourceType\":\"network-interface\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]}],\"BlockDeviceMappings\":[{\"Ebs\":{\"VolumeType\":\"gp3\",\"Throughput\":\"125\",\"Iops\":\"3000\",\"VolumeSize\":\"80\"},\"DeviceName\":\"/dev/xvda\"}],\"SecurityGroupIds\":[\"sg-02dc3620fb1be6bb2\"]},\"LaunchTemplateName\":\"eksctl-disco-unicorn-nodegroup-tasky-group\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "NodeInstanceRole-CREATE_IN_PROGRESS-2025-06-07T03:39:45.694Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "NodeInstanceRole",
+            "PhysicalResourceId": "eksctl-disco-unicorn-nodegroup-tas-NodeInstanceRole-DM70gBlc6Z2k",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-06-07T03:39:45.694000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"Path\":\"/\",\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly\",\"arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy\",\"arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy\",\"arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"sts:AssumeRole\"],\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}]},\"Tags\":[{\"Value\":\"eksctl-disco-unicorn-nodegroup-tasky-group/NodeInstanceRole\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "LaunchTemplate-CREATE_IN_PROGRESS-2025-06-07T03:39:44.799Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "LaunchTemplate",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::EC2::LaunchTemplate",
+            "Timestamp": "2025-06-07T03:39:44.799000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"LaunchTemplateData\":{\"MetadataOptions\":{\"HttpPutResponseHopLimit\":\"2\",\"HttpTokens\":\"required\"},\"TagSpecifications\":[{\"ResourceType\":\"instance\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]},{\"ResourceType\":\"volume\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]},{\"ResourceType\":\"network-interface\",\"Tags\":[{\"Value\":\"disco-unicorn-tasky-group-Node\",\"Key\":\"Name\"},{\"Value\":\"tasky-group\",\"Key\":\"alpha.eksctl.io/nodegroup-name\"},{\"Value\":\"managed\",\"Key\":\"alpha.eksctl.io/nodegroup-type\"}]}],\"BlockDeviceMappings\":[{\"Ebs\":{\"VolumeType\":\"gp3\",\"Throughput\":\"125\",\"Iops\":\"3000\",\"VolumeSize\":\"80\"},\"DeviceName\":\"/dev/xvda\"}],\"SecurityGroupIds\":[\"sg-02dc3620fb1be6bb2\"]},\"LaunchTemplateName\":\"eksctl-disco-unicorn-nodegroup-tasky-group\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "NodeInstanceRole-CREATE_IN_PROGRESS-2025-06-07T03:39:44.750Z",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "NodeInstanceRole",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-06-07T03:39:44.750000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"Path\":\"/\",\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly\",\"arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy\",\"arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy\",\"arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"sts:AssumeRole\"],\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}]},\"Tags\":[{\"Value\":\"eksctl-disco-unicorn-nodegroup-tasky-group/NodeInstanceRole\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "EventId": "0c47a800-4351-11f0-bcc7-0afff224c7e9",
+            "StackName": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "LogicalResourceId": "eksctl-disco-unicorn-nodegroup-tasky-group",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:307946671796:stack/eksctl-disco-unicorn-nodegroup-tasky-group/0c449ac0-4351-11f0-bcc7-0afff224c7e9",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-06-07T03:39:42.631000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        }
+    ]
+}
